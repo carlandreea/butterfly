@@ -4,24 +4,19 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/acac88dc-7e9b-40e3-80ea-4a05c897e180/d5bd6zo-0b0a386f-4833-4e99-b8bc-c545f598320f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FjYWM4OGRjLTdlOWItNDBlMy04MGVhLTRhMDVjODk3ZTE4MFwvZDViZDZ6by0wYjBhMzg2Zi00ODMzLTRlOTktYjhiYy1jNTQ1ZjU5ODMyMGYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.TAWSntNphNuiC_TvMYINyEKSfdGZ6kx9GzKVOzmQ5X0");
+    background: url("https://img1.picmix.com/output/stamp/normal/6/2/3/4/1384326_87c6b.gif"), url("https://miro.medium.com/max/1400/1*1zT6ujt73ra9cG5hXohT4Q.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-  
-   
-    
+    background-color: black;
   }
 
 
-.container {
-    animation: floatup 20s linear infinite, sideways 20s linear infinite, change 10s linear infinite alternate;
-}
+
 
 .butterfly {
   position: relative;
   z-index: 10;
-  transform: translate(310%, -30%)
-  
+  transform: translate(310%, -30%);
 }
 
 .wing {
@@ -34,7 +29,7 @@ body {
     animation: left 0.5s linear infinite alternate;
     transform-origin: left;
     box-shadow: 20px 20px 70px  rgb(165,241,247);
-    background: radial-gradient(circle, rgba(165,241,247,1) 0%, rgba(255,254,248,1) 38%, rgba(152,236,252,1) 97%);  inset;
+    background: radial-gradient(circle, rgba(165,241,247,1) 0%, rgba(255,254,248,1) 38%, rgba(152,236,252,1) 97%);
 }
 
 .wing::before {
@@ -43,7 +38,8 @@ body {
   height: 150px;
   width: 150px;
   box-shadow: 20px 20px 70px  rgb(165,241,247);
-    background: radial-gradient(circle, rgba(165,241,247,1) 0%, rgba(255,254,248,1) 38%, rgba(152,236,252,1) 97%);  inset;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(170,234,247,1) 60%, rgba(255,255,255,1) 100%);  
   border-top-right-radius:80px;
   border-bottom-left-radius:90px;
   top: 170px;
@@ -53,7 +49,7 @@ body {
 
 .second-wing {
   box-shadow: 20px 20px 70px  rgb(165,241,247);
-  background: radial-gradient(circle, rgba(165,241,247,1) 0%, rgba(255,254,248,1) 38%, rgba(152,236,252,1) 97%);  inset;
+  background: radial-gradient(circle, rgba(165,241,247,1) 0%, rgba(255,254,248,1) 38%, rgba(152,236,252,1) 97%);
     height: 170px;
     width: 180px;
     border-top-right-radius: 100px;
@@ -61,7 +57,7 @@ body {
     border-bottom-left-radius: 90px;
     animation: right 0.5s linear infinite alternate;
     right: 116%;
-    top: -350px;
+    top: -365px;
     transform-origin: right;
 }
 
@@ -71,7 +67,8 @@ body {
   height: 150px;
   width: 150px;
   box-shadow: 20px 20px 70px  rgb(165,241,247);
-    background: radial-gradient(circle, rgba(165,241,247,1) 0%, rgba(255,254,248,1) 38%, rgba(152,236,252,1) 97%);  inset;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(170,234,247,1) 60%, rgba(255,255,255,1) 100%); 
   border-top-left-radius:80px;
   border-bottom-right-radius:90px;
   top: 170px;
@@ -114,11 +111,12 @@ body {
 .flowerHead {
   width: 200px;
   height: 300px;
-  background-color: white;
+  background-color: rgb(199, 199, 199);
   transform: rotate(45deg);
   border-bottom-left-radius: 210%;
   border-top-right-radius: 210%;
-  box-shadow: 10px 10px 25px grey inset;
+  box-shadow: 10px -100px 25px grey inset;
+              
   position: relative;
 }
 
@@ -126,11 +124,11 @@ body {
   content: "";
   width: 200px;
   height: 300px;
-  background-color: white;
+  background-color: rgb(204, 204, 204);
   transform: translate(100%, -100%) rotate(-65deg);
   border-bottom-left-radius: 210%;
   border-top-right-radius: 210%;
-  box-shadow: 10px 10px 25px grey inset;
+  box-shadow: 50px -10px 25px grey inset;
   position: absolute;
 
 }
@@ -146,7 +144,8 @@ body {
   border-top-left-radius: 40%;
   border-bottom-right-radius: 40%;
   border-bottom-left-radius: 50%;
-  box-shadow: 10px 10px 25px grey inset;
+  box-shadow: -10px 10px 25px grey inset,
+               -80px 5px 35px grey inset;
   position: absolute;
 
 }
@@ -154,12 +153,12 @@ body {
 .green {
   width: 100px;
   height: 200px;
-  background-color: green;
+  background-color: rgb(2, 66, 2);
   transform: translate(150%, -0%) rotate(165deg);
   position: relative;
   border-bottom-left-radius: 40%;
   border-bottom-right-radius: 40%;
-  box-shadow: 10px 10px 40px rgb(6, 49, 6) inset;
+  box-shadow: 50px 100px 40px rgb(68, 181, 68) inset;
 }
 
 .moon-shape {
@@ -167,7 +166,7 @@ body {
     width: 400px;
     height: 500px;
     border-radius: 50%;
-    box-shadow: 15px 15px 0 0 green;
+    box-shadow: 15px 15px 0 0 rgb(2, 66, 2);
     position: relative;
     transform: translate(-50%, 80%) rotate(205deg);
 }
@@ -175,7 +174,7 @@ body {
 .body {
   height: 700px;
   width: 20px;
-  background: green;
+  background: rgb(2, 66, 2);
   position: relative;
   transform: translate(-1100%, -50%);
   border-top-left-radius: 50%;
@@ -186,12 +185,12 @@ body {
   content: "";
   width: 1500px;
   height: 300px;
-  background-color: green;
+  background-color: rgb(4, 39, 4);
   transform: translate(-60%, 100%) rotate(65deg);
   border-bottom-left-radius: 210%;
   border-top-right-radius: 210%;
-  border-bottom-right-radius:;
+ 
   border-top-left-radius:5%;
-  box-shadow: 10px 10px 25px rgb(12, 78, 12) inset;
+  box-shadow: 10px 30px 55px rgb(12, 78, 12) inset;
   position: absolute;
 }
